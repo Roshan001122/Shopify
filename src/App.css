@@ -1,0 +1,74 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.appFooter{
+    height: 3.75rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.appHeader{
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0.0625rem 0.125rem 0.125rem #00000033;
+}
+
+.appmenu{
+    border: none;
+
+}
+
+.custom-title {
+    font-size: 2rem !important; 
+    color: #ff9900 !important;
+    font-weight: bold !important;
+    margin-right: 16rem !important; 
+  }
+
+.order-confirm-button{
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+}
+
+.pageContent{
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 0.13rem;
+}
+
+.itemcard, .itemCardBadge{
+    margin: 0.5rem;
+}
+
+
+.itemCardImage{
+    height: 9.375rem !important;
+    object-fit: scale-down;
+}
+
+.productsContainer{
+    padding: 0.5rem;
+}
+
+.shoppingCartBadge{
+    font-size: 1.87rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.total-summary{
+    margin-top: 2rem;
+    color: black;
+    padding: auto;
+}
